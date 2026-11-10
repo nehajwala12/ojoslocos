@@ -1,4 +1,4 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.2)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.4)
 
 A static site. One page, no build step.
 
@@ -13,8 +13,10 @@ From this folder, with the Vercel CLI:
     npx vercel          # preview deployment
     npx vercel --prod   # production deployment
 
-Or push this folder to a Git repository and import it in Vercel.
-Framework preset: Other. Build command: none. Output directory: leave empty (the root).
+To replace the earlier deployment, answer "yes" when the CLI asks to link to an existing
+project and pick the Ojos Locos project. Or push this folder to a Git repository and
+import it in Vercel. Framework preset: Other. Build command: none. Output directory:
+leave empty (the root).
 
 ## Before sharing the link
 
@@ -25,9 +27,32 @@ search results; they do not restrict access.
 
 ## What is where
 
-Tabs 01 and 03 to 08 hold the commercial and operating plan:
-Overview, Diagnosis, Market, Stores, Levers (with three scenario simulators),
-Way forward and Next steps.
-Debt and lender considerations are in one section of tab 09, Appendix
+Tab 01, Overview, is the whole packet in brief: a board of six findings that each open
+their detail, then one short section per part of the packet, the asks, and supporting
+evidence. It carries 16 charts.
+Tabs 02 to 07 hold the commercial and operating plan: Diagnosis, Market, Stores,
+Levers (with three scenario simulators), Way forward and Next steps.
+Debt and lender considerations are in one section of tab 08, Appendix
 (section C, "Lender considerations", which also holds a leverage simulator).
-Tab 10 lists assumptions and links to every public source used in the Market tab.
+Tab 09 lists assumptions and links to every public source used in the Market tab.
+Tab 10 is the FAQ, and tab 11, About CreditSwan, closes the packet.
+
+## Changes since V1.2 (this file is not deployed)
+
+No analysis was rewritten. Every sentence, figure and chart added to the Overview is taken
+from the section it summarizes.
+
+V1.4
+- Overview rebuilt as a TL;DR of the whole packet. A summary board of six tiles comes first,
+  five with a chart and each a link to its detail. New Market and Asks sections cover
+  Section 03 and the asks in Sections 05, 07 and 08. A second chart under The prize sizes
+  each lever.
+- Overview exhibits are renumbered in reading order (1.01 to 1.20). The FAQ references and
+  the register's "Used in" column follow.
+
+V1.3
+- Menu: the contents rail replaces the horizontal tab strip and sub-tab bar.
+- About CreditSwan moves from tab 02 to the last tab. Tabs, labels, exhibit and simulator
+  numbers and every cross-reference are renumbered to match.
+- Every CreditSwan logo opens creditswan.com in a new tab. The packet's own simulator
+  styles moved to a cs-scn namespace. The footer no longer shows a version label.
