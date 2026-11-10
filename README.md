@@ -1,4 +1,4 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.4)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.5)
 
 A static site. One page, no build step.
 
@@ -39,8 +39,23 @@ Tab 10 is the FAQ, and tab 11, About CreditSwan, closes the packet.
 
 ## Changes since V1.2 (this file is not deployed)
 
-No analysis was rewritten. Every sentence, figure and chart added to the Overview is taken
-from the section it summarizes.
+V1.3 and V1.4 rewrote no analysis; every sentence, figure and chart added to the Overview
+is taken from the section it summarizes.
+
+V1.5
+- Material from a separate Comvest engagement is removed everywhere: one Way forward
+  exhibit (the labor-gap exhibit is now 6.22), the related rows in Exhibits 6.15, 7.02,
+  7.03, 8.01 and 8.14, and the sentences and counts that referred to them. Section 07 now
+  lists six asks and five open questions, and the Appendix four parties.
+- The chief executive is named. Joe Hummel (since April 2026) and Clay Mingus (chief legal
+  officer) appear in Exhibit 8.01, the Overview timeline (Exhibit 1.20) and the Overview
+  sales section, with a new FAQ answer and the public source listed in tab 09.
+- Two headlines keep their meaning with fairer wording: Exhibit 6.15 now says management's
+  sales actions are still new, and Market section G says the benchmarks can start before
+  access is granted.
+- Stores section G now says the first remodel would be measured against comparable stores
+  before the rest are funded, and Way forward section A says the scope would be agreed
+  first with the chief executive.
 
 V1.4
 - Overview rebuilt as a TL;DR of the whole packet. A summary board of six tiles comes first,
