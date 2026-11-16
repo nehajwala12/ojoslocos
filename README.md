@@ -1,8 +1,8 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.5)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.7)
 
 A static site. One page, no build step.
 
-    index.html    the packet (eleven tabs, all charts, simulators and styles inline)
+    index.html    the packet (thirteen tabs, all charts, simulators and styles inline)
     vercel.json   clean URLs, plus headers that tell search engines not to index the page
     robots.txt    disallows all crawlers
 
@@ -29,15 +29,62 @@ search results; they do not restrict access.
 
 Tab 01, Overview, is the whole packet in brief: a board of six findings that each open
 their detail, then one short section per part of the packet, the asks, and supporting
-evidence. It carries 16 charts.
-Tabs 02 to 07 hold the commercial and operating plan: Diagnosis, Market, Stores,
-Levers (with three scenario simulators), Way forward and Next steps.
-Debt and lender considerations are in one section of tab 08, Appendix
+evidence.
+Tabs 02 to 09 hold the commercial and operating plan: Diagnosis, Market, Stores,
+Levers (with three scenario simulators), Path to $13M (the cost review: seven levers,
+insurance, store labor, purchasing and promotions, timing, and a simulator),
+Overhead & cash (overhead, the sponsor fee, the 2027 cash forecast and a runway
+simulator), Way forward and Next steps.
+Debt and lender considerations are in one section of tab 10, Appendix
 (section C, "Lender considerations", which also holds a leverage simulator).
-Tab 09 lists assumptions and links to every public source used in the Market tab.
-Tab 10 is the FAQ, and tab 11, About CreditSwan, closes the packet.
+Tab 11 lists assumptions and links to every public source used.
+Tab 12 is the FAQ, and tab 13, About CreditSwan, closes the packet.
 
 ## Changes since V1.2 (this file is not deployed)
+
+V1.7 (16 Nov 2026)
+- Built on V1.6 with a line-by-line read of store and head-office cost in the site-level
+  model (every store, January 2024 to period 10 of 2026), re-read against management's
+  cost savings slides, the board deck extract, the cash forecast thread and Comvest's
+  period 10 review. Comvest's own marks, ratings, internal plans and covenant proposals
+  are still not used.
+- New tab 06, Path to $13M (Exhibits 6.01 to 6.29, Simulator 6.A): seven cost levers on
+  management's 2027 plan ($6.5M to a run-rate of about $13.5M, about $12.3M inside fiscal
+  2027), insurance ($9.2M a year, 5.8% of sales), store labor against a Texas line,
+  store purchasing, promotions, the timing of each lever and the sales sensitivity.
+- Later tabs move up one: Overhead & cash is 07 (renamed from Cost & cash), Way forward 08,
+  Next steps 09, Appendix 10, Assumptions 11, FAQ 12, About CreditSwan 13. Their exhibits,
+  simulators and cross-references are renumbered. A few references left one behind by the
+  V1.6 renumbering (the illustrative-exhibit lists and four Overview labels) are corrected.
+- Overview: new headline and summary line, a Costs tile in place of the Way forward tile,
+  a new section for tab 06 (Exhibits 1.25 to 1.27; 1.25 is redrawn as the seven-lever
+  bridge), and a cost ask.
+- Overhead & cash: new headline; the path section and Exhibits 7.08 and 7.20 now show
+  overhead as one of the levers; Simulator 7.A phases the cost levers in on the timing of
+  Exhibit 6.11 and reports fiscal 2027 and year-end run-rate EBITDA separately.
+- Treatment change: of management's further $0.95M of savings for 2027, only the $0.3M of
+  new supplier contracts is added to the plan; the rest reads as the full-year effect of
+  cuts already in the period 11 cost base (assumption A-35). Lease exits are counted at
+  half of the seven stores' losses.
+- Next steps gains eight cost asks (Exhibit 9.05). Assumptions A-31 to A-37 added, A-30
+  updated. Five public sources added. The FAQ gains four answers and two are rewritten.
+
+V1.6 (13 Nov 2026)
+- Built on V1.5 with the second file set shared from OneDrive on 12 November: Comvest's
+  period 10 review, twelve weekly sales reports to 8 November, the event calendar and
+  22 lease documents for eleven stores (eleven of them scanned and read by text recognition).
+  Comvest's own marks, ratings, internal plans and covenant proposals in the review are not used.
+- New tab 06, Cost & cash: the pro forma bridge, management's 2027 plan, overhead by line and
+  the cuts (Exhibits 6.01 to 6.20), the sponsor fee and board travel, the add-backs, the cash
+  runway and Simulator 6.A. Later tabs move up one: Way forward is 07, Next steps 08,
+  Appendix 09, Assumptions 10, FAQ 11, About CreditSwan 12, and their exhibits are renumbered.
+- Diagnosis gains a Recent weeks section (Exhibits 2.21 to 2.26).
+- Stores gains an Exit cost section from the leases (Exhibits 4.21 to 4.24).
+- Overview: the Target tile is replaced by a Cash tile; new sections Recent weeks and
+  Cost and cash, and a lease finding under Stores (Exhibits 1.21 to 1.25).
+- Next steps gains seven asks from the new files (Exhibit 8.04). Assumptions A-24 to A-30
+  added. Five FAQ answers added. The Appendix notes that the forbearance expired on 30 October.
+
 
 V1.3 and V1.4 rewrote no analysis; every sentence, figure and chart added to the Overview
 is taken from the section it summarizes.
