@@ -1,10 +1,10 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.9)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V2.1)
 
 DRAFT - PENDING FULL DATA ACCESS. Prepared for Comvest.
 
 A static site. One page, no build step.
 
-    index.html    the packet (fourteen tabs, all charts, simulators and styles inline)
+    index.html    the packet (twelve tabs, all charts, simulators and styles inline)
     vercel.json   clean URLs, plus headers that tell search engines not to index the page
     robots.txt    disallows all crawlers
 
@@ -32,19 +32,107 @@ search results; they do not restrict access.
 Tab 01, Overview, is the whole packet in brief: a board of six findings that each open
 their detail, then one short section per part of the packet, the asks, and supporting
 evidence.
-Tabs 02 to 10 hold the commercial and operating plan: Diagnosis, Market (with outside
-signals and a simulator), Stores, Levers (with three scenario simulators),
-Revenue (where the sales gap sits by day, by drink and by event, three moves sized on a
-planning case, the open revenue questions, and a simulator),
-Path to $13M (the cost review: seven levers, insurance, store labor, purchasing and
-promotions, timing, and two simulators), Overhead & cash (overhead, the sponsor fee, the
-2027 cash forecast and a runway simulator), Way forward and Next steps.
-Debt and financing considerations are in one section of tab 11, Appendix
+Tabs 02 to 08 hold the commercial and operating plan:
+02 Diagnosis; 03 Market (with outside signals and a simulator); 04 Stores (with the store
+plan and its simulator); 05 Revenue (the planning case, the whole gap to last year,
+management's sales ladder, then where the gap sits by day, by drink and by event; three
+simulators); 06 Path to $13M (the cost review: seven levers, two simulators);
+07 Overhead & cash (overhead, the sponsor fee, the 2027 cash forecast, a runway
+simulator); 08 Way forward (the workstreams, the weekly read and scorecard, the first
+100 days, the data request, the asks and the open questions).
+Debt and financing considerations are in one section of tab 09, Appendix
 (section C, "Financing considerations", which also holds a leverage simulator).
-Tab 12 lists assumptions and links to every public source used.
-Tab 13 is the FAQ, and tab 14, About CreditSwan, closes the packet.
+Tab 10 lists assumptions and links to every public source used.
+Tab 11 is the FAQ, and tab 12, About CreditSwan, closes the packet.
 
 ## Changes since V1.2 (this file is not deployed)
+
+V2.1 (16 Nov 2026)
+- Built on V2.0. Seven tables gain a chart directly above them, drawn from the figures
+  already in the table. No figure, table or finding is changed, and no table is removed.
+
+    2.27  the autumn weeks with the big fight cards marked (above the weekly table, 2.25)
+    2.28  the change in same-store sales by store between the two six-week spans (above 2.26)
+    4.29  time left on the lease at the eight profitable stores that expire by 2030 (above 4.15)
+    6.31  where the rise in promotions came from, as a bridge (above 6.27)
+    6.32  the four margin gaps to last year (above 6.30)
+    8.08  nine scorecard measures with last year set at 100 (above the scorecard table)
+    9.19  fixed charge coverage against its floor (above 9.13)
+
+- Numbering. The new exhibits take the next free number in their tab, except in Way
+  forward, which stays in reading order: the scorecard table is now 8.09 and V2.0
+  Exhibits 8.08 to 8.33 are 8.09 to 8.34. Cross-references follow (checked by script: 259
+  exhibits and simulators, 365 references, none unresolved).
+- Considered and left as tables: the exit-saving table (4.24), because Exhibit 4.21 already
+  charts the same figures; the store and cost ledgers, which are sortable lookups behind a
+  chart; and the text tables of asks, tests and deliverables.
+
+V2.0 (16 Nov 2026)
+- Built on V1.9. No new documents and no new analysis: this version consolidates the
+  packet from fourteen tabs to twelve and restates the guest and check averages.
+- Tab map, V1.9 to V2.0:
+
+    01 Overview          > 01 Overview (fifteen sections become eleven)
+    02 Diagnosis         > 02 Diagnosis
+    03 Market            > 03 Market
+    04 Stores            > 04 Stores (gains the store plan and the new-store read)
+    05 Levers            > dissolved: the prize, the ladder and their simulators to
+                           05 Revenue; the store plan to 04 Stores; the scorecard,
+                           first 100 days, risks, triggers and rhythm to 08 Way forward
+    06 Revenue           > 05 Revenue
+    07 Path to $13M      > 06 Path to $13M
+    08 Overhead & cash   > 07 Overhead & cash
+    09 Way forward       > 08 Way forward
+    10 Next steps        > 08 Way forward (sections F to H)
+    11 Appendix          > 09 Appendix
+    12 Assumptions       > 10 Assumptions
+    13 FAQ               > 11 FAQ
+    14 About CreditSwan  > 12 About CreditSwan
+
+- Exhibit numbers. Tabs 01 to 04 keep their numbers. Path to $13M, Overhead & cash and
+  the Appendix change only their first number (7.xx to 6.xx, 8.xx to 7.xx, 11.xx to
+  9.xx). Revenue and Way forward are renumbered in reading order. Every cross-reference
+  follows (checked by script: 252 exhibits and simulators, 358 references, none
+  unresolved; every in-packet link lands). Exhibits that moved or were renumbered other
+  than by that shift, V1.9 number > V2.0 number (see V2.1 above for 8.08 onward):
+
+    5.02 > 5.04        5.03 > 5.18        5.04 > 4.26        5.05 > 5.20        5.06 > 5.21
+    5.07 > 5.19        5.08 > 8.09        5.09 > 4.27        5.13 > 8.12        5.14 > 8.10
+    5.15 > 8.11        5.17 > 8.32        5.18 > 8.33        Sim 5.A > 5.B      Sim 5.B > 5.C
+    Sim 5.C > 4.A      6.01 > 5.01        6.02 > 5.02        6.03 > 5.05        6.04 > 5.06
+    6.05 > 5.07        6.06 > 5.08        6.07 > 5.09        6.08 > 5.10        6.09 > 5.11
+    6.10 > 4.25        6.11 > 5.12        6.12 > 5.13        6.13 > 5.14        6.14 > 5.15
+    6.15 > 5.16        6.16 > 5.17        6.17 > 5.22        6.18 > 5.23        6.19 > 5.24
+    6.20 > 5.25        6.21 > 5.26        6.22 > 5.27        6.23 > 5.28        6.24 > 4.28
+    6.25 > 5.29        Sim 6.A > 5.A      9.01 > 8.01        9.02 > 8.02        9.03 > 8.03
+    9.04 > 8.05        9.05 > 8.06        9.06 > 8.04        9.07 > 8.07        9.08 > 8.19
+    9.09 > 8.20        9.10 > 8.21        9.11 > 8.22        9.12 > 8.23        9.13 > 8.24
+    9.14 > 8.25        9.15 > 8.26        9.16 > 8.27        9.17 > 8.28        9.18 > 8.29
+    9.19 > 8.30        9.20 > 8.31        9.22 > 6.30        10.01 > 8.13       10.02 > 8.14
+    10.03 > 8.18       10.04 > 8.15       10.05 > 8.16       10.06 > 8.17
+
+- Retired as duplicates: V1.9 Exhibits 5.10 (lever table) and 5.16 (tests table, covered
+  by the tests in Revenue and Way forward). Merged: 5.12 and 6.26 into one twelve-measure
+  scorecard (8.08); 5.11 and 9.21 into one ladder table (5.30). The prize chart (5.01 and
+  its Overview copy 1.08) is redrawn as the five sales gaps (5.03); the cost gaps it used
+  to show are in Path to $13M (6.30).
+- Way forward: the six workstream sections become three (data; sales workstreams;
+  store workstreams). The four ask lists sit in two sections (data request; asks of
+  others, which carries the overhead and lease, cost and revenue asks).
+- Overview: Sales and Recent weeks fold into Diagnosis; The prize folds into Revenue;
+  In motion folds into Path to $13M.
+- Restated. Every guest and spend-per-check average now uses the seven periods of 2026
+  that have a guest count (1, 4, 5, 7 to 10) against the same periods of 2025, at all
+  stores: guest checks per store-week 1,845 against 2,060 (-10.4%; was 1,874 against
+  2,079, -9.9%); alcohol per check $28.19 against $30.62 (-7.9%; was -8.6%); food per
+  check $17.92 against $16.43 (+9.1%; was +10.0%). The traffic gap is about $18M of
+  sales and $11.5M of profit (was $17M and $11M); the alcohol-check gap about $5.2M
+  (was $5.9M). The guests-and-check simulator starts from the restated figures.
+  Exhibit 2.12 no longer shows guest or check figures for periods 2, 3 and 6. Store
+  comparisons stay on the 32 stores open in both years (-10.7%), and each exhibit names
+  its basis. A-03, A-44 and one FAQ answer are updated; the simulator count in the FAQ
+  is corrected to nine.
+- Not changed: every other figure, chart and simulator.
 
 V1.9 (16 Nov 2026)
 - Built on V1.8 with a revenue read of the documents already in hand: the site-level model
