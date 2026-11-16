@@ -1,4 +1,6 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.7)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.8)
+
+DRAFT - PENDING FULL DATA ACCESS. Prepared for Comvest.
 
 A static site. One page, no build step.
 
@@ -30,17 +32,39 @@ search results; they do not restrict access.
 Tab 01, Overview, is the whole packet in brief: a board of six findings that each open
 their detail, then one short section per part of the packet, the asks, and supporting
 evidence.
-Tabs 02 to 09 hold the commercial and operating plan: Diagnosis, Market, Stores,
+Tabs 02 to 09 hold the commercial and operating plan: Diagnosis, Market (with outside
+signals and a simulator), Stores,
 Levers (with three scenario simulators), Path to $13M (the cost review: seven levers,
 insurance, store labor, purchasing and promotions, timing, and a simulator),
 Overhead & cash (overhead, the sponsor fee, the 2027 cash forecast and a runway
 simulator), Way forward and Next steps.
-Debt and lender considerations are in one section of tab 10, Appendix
-(section C, "Lender considerations", which also holds a leverage simulator).
+Debt and financing considerations are in one section of tab 10, Appendix
+(section C, "Financing considerations", which also holds a leverage simulator).
 Tab 11 lists assumptions and links to every public source used.
 Tab 12 is the FAQ, and tab 13, About CreditSwan, closes the packet.
 
 ## Changes since V1.2 (this file is not deployed)
+
+V1.8 (16 Nov 2026)
+- Built on V1.7 and reworded for Comvest as the reader. The masthead no longer says
+  "Intelligence packet"; reported speech about Comvest ("Comvest says", "Comvest believes")
+  is replaced by "Comvest's read, from our call"; "the lender" is Comvest; "the files" are
+  the documents Comvest shared; the Appendix section is "Financing considerations". No
+  figure was changed by the rewording.
+- Labelled DRAFT - PENDING FULL DATA ACCESS: in the masthead, in a band under it on every
+  tab, in every section label, in the footer, in the page title and on every printed page.
+- Outside signals added to tab 03, Market, all from public sources to 16 November:
+  immigration enforcement and the election (section C, Exhibit 3.21), rival moves
+  (new section, Exhibit 3.22), guest reviews (new section, Exhibit 3.23), and four new
+  tables in Supporting evidence (Exhibits 3.24 to 3.27). Exhibits 3.03, 3.13 to 3.17 are
+  brought up to date (Chili's latest quarter, Twin Peaks out of Chapter 11, the UFC date
+  in Dallas). The Overview carries the summary (Exhibit 1.28).
+- Two simulators added, both built with the brand's csSim: Simulator 3.A (what the gap to
+  the Texas market is worth, and what further pressure on the guest would cost) and
+  Simulator 6.B (insurance cost by rate and by sales). The packet now has eight.
+- Assumptions A-38 to A-41 added; 23 public sources added with links; four FAQ answers
+  added and the simulator and immigration answers updated.
+- Not changed: tab order and numbering, every V1.7 exhibit number and cross-reference.
 
 V1.7 (16 Nov 2026)
 - Built on V1.6 with a line-by-line read of store and head-office cost in the site-level
