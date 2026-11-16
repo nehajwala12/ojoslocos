@@ -1,10 +1,10 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.8)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V1.9)
 
 DRAFT - PENDING FULL DATA ACCESS. Prepared for Comvest.
 
 A static site. One page, no build step.
 
-    index.html    the packet (thirteen tabs, all charts, simulators and styles inline)
+    index.html    the packet (fourteen tabs, all charts, simulators and styles inline)
     vercel.json   clean URLs, plus headers that tell search engines not to index the page
     robots.txt    disallows all crawlers
 
@@ -32,18 +32,51 @@ search results; they do not restrict access.
 Tab 01, Overview, is the whole packet in brief: a board of six findings that each open
 their detail, then one short section per part of the packet, the asks, and supporting
 evidence.
-Tabs 02 to 09 hold the commercial and operating plan: Diagnosis, Market (with outside
-signals and a simulator), Stores,
-Levers (with three scenario simulators), Path to $13M (the cost review: seven levers,
-insurance, store labor, purchasing and promotions, timing, and a simulator),
-Overhead & cash (overhead, the sponsor fee, the 2027 cash forecast and a runway
-simulator), Way forward and Next steps.
-Debt and financing considerations are in one section of tab 10, Appendix
+Tabs 02 to 10 hold the commercial and operating plan: Diagnosis, Market (with outside
+signals and a simulator), Stores, Levers (with three scenario simulators),
+Revenue (where the sales gap sits by day, by drink and by event, three moves sized on a
+planning case, the open revenue questions, and a simulator),
+Path to $13M (the cost review: seven levers, insurance, store labor, purchasing and
+promotions, timing, and two simulators), Overhead & cash (overhead, the sponsor fee, the
+2027 cash forecast and a runway simulator), Way forward and Next steps.
+Debt and financing considerations are in one section of tab 11, Appendix
 (section C, "Financing considerations", which also holds a leverage simulator).
-Tab 11 lists assumptions and links to every public source used.
-Tab 12 is the FAQ, and tab 13, About CreditSwan, closes the packet.
+Tab 12 lists assumptions and links to every public source used.
+Tab 13 is the FAQ, and tab 14, About CreditSwan, closes the packet.
 
 ## Changes since V1.2 (this file is not deployed)
+
+V1.9 (16 Nov 2026)
+- Built on V1.8 with a revenue read of the documents already in hand: the site-level model
+  by store and period, the twelve weekly sales reports (Sunday against Monday to Saturday)
+  and the company's event calendar. No new documents and no system access.
+- New tab 06, Revenue (Exhibits 6.01 to 6.26, Simulator 6.A; 14 charts, 12 tables):
+  Sundays are level with last year and the other six days are about 8% below; liquor per
+  check is down about 14% against about 6% for beer; cover-charge income is down by more
+  than four fifths and did not end (about $187K in periods 8 and 9, at 30 stores);
+  discounts did not hold guests; the newest stores have lost about half their opening
+  sales. Three moves are sized on a planning case of a quarter of each gap: about $3.8M of
+  sales and about $2.6M of EBITDA a year, on top of the cost path and not counted in it.
+  The tab also lists fifteen revenue questions the documents cannot yet answer.
+- Later tabs move up one: Path to $13M is 07, Overhead & cash 08, Way forward 09,
+  Next steps 10, Appendix 11, Assumptions 12, FAQ 13, About CreditSwan 14. Their exhibits,
+  simulators and every cross-reference are renumbered (checked by script: 256 exhibits and
+  simulators, 357 references, none unresolved).
+- Overview: a Revenue tile replaces The prize tile on the board; new Revenue section
+  (Exhibits 1.29 to 1.31); a revenue ask; the revenue planning case joins the assumptions.
+- Corrections. Cover charges: the wording that they "ended" in January 2026 now says most
+  did (Overview, Diagnosis, Market); Exhibit 2.06 is retitled. Its data already showed
+  the income in periods 8 and 9. Sales by line: the Diagnosis now gives the change at the
+  same 32 stores as well as for all stores (liquor -23%, beer -16%, food -2%).
+- Guest counts. The site-level model holds no guest count by store for periods 2, 3 and 6
+  of 2026 and repeats the 2025 figure in its consolidated sheet. Those points are removed
+  from Exhibits 2.01 and 2.02 and the Guests tile, a caution is added in the Diagnosis,
+  and A-03 says so. The ten-period averages elsewhere are unchanged and are within about a
+  point of the seven-period figures; restating them is open.
+- Next steps gains eight revenue asks (Exhibit 10.06). Assumptions A-42 to A-48 added,
+  A-03 and A-15 updated. The FAQ gains five answers.
+- Not changed: every figure, chart and simulator in the other tabs apart from the items
+  above.
 
 V1.8 (16 Nov 2026)
 - Built on V1.7 and reworded for Comvest as the reader. The masthead no longer says
