@@ -1,7 +1,29 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V3.2)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V3.3)
 
 DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed);
 the open questions are listed in Way forward. Prepared for Comvest.
+
+## V3.2 to V3.3 (20 Nov 2026)
+
+- Late-night re-check (analysis/late-night-recheck). The Toast switch moved sales between dayparts: in the week each
+  store went live, late night lost about 2.3 points of its share of sales and happy hour gained about 3.2, against the
+  same calendar weeks at stores not yet switched. Allowing for it, late-night sales were about -21% in the six weeks to
+  15 Nov (-34.0% as Mirus books them) and about -25% over weeks 1 to 46 (-29.3%), about 30% of the sales drop (35%).
+- Late-night staffing excess restated from $1.12M to about $0.70M a year at base ($0.55M to $1.05M). The hours lever
+  ($1.82M), the levers after overlaps ($7.81M) and the quick hits ($3.75M) are unchanged: the hours lever flexes each
+  store's crew hours to all-day sales, which the switch does not affect.
+- Quick hit 1 (Exhibits 1.36 and 6.43): 10pm to midnight first, then happy hour and Monday to Wednesday; stores
+  reordered (Albuquerque, El Paso, Phoenix Metro, Tucson, Mesa, Las Vegas); late night about $0.70M of the $1.82M.
+- Exhibits 1.27, 4.34 and 8.06 show net sales both as booked and with the switch allowed for. Exhibit 4.35 and the
+  Exhibit 4.31 table restated by store (4.31 now leads with the excess so it reads on a phone). Exhibit 6.36 labor
+  chart: late night 0.70. Exhibits 1.08 and 5.03: late-night gap $4.9M of EBITDA (was $5.8M), Friday-Saturday evenings
+  $5.5M (was $6.0M). Exhibit 2.04 retitled, with the adjusted daypart figures in its subtitle.
+- Text restated in Overview, Diagnosis (dayparts), Stores (crew hours), Revenue, Path (labor) and Way forward; A-32 and
+  A-56 updated; new assumption A-57 (Toast switch and dayparts) in the register and in the Diagnosis and Stores blocks.
+- Questions by person: Bruce (rate on the $0 bartender punches, which look paid), James (how Toast splits a check's
+  sales across dayparts), Operations (what cut crew hours after midnight in weeks 45 and 46).
+- QA (Chrome 1440 / 1024 / 390, cream and ink): no console errors, no horizontal overflow, every chart draws, 109
+  in-packet links land.
 
 ## V3.1 to V3.2 (20 Nov 2026)
 
