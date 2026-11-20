@@ -1,7 +1,24 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V3.1)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V3.2)
 
 DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed);
 the open questions are listed in Way forward. Prepared for Comvest.
+
+## V3.1 to V3.2 (20 Nov 2026)
+
+- Savings made easy to find. Tab 06 is renamed "Savings and the path to $13M" (short label "Savings and path") and opens
+  with two new sections:
+  - Savings at a glance (id pt-savings): every saving after overlaps in one exhibit, ranked and grouped by what it depends
+    on, base case bar with low to high: management can act now $3.41M; needs Ojos's answers first $3.14M; insurers and
+    renewal dates $1.03M; landlords $0.46M; minimum wage -$0.22M; total $7.81M (low $3.58M, high $14.06M). Exhibit 6.41.
+  - Quick hits, Q4 (id pt-quick): the ten actions for periods 12 and 13, $3.75M a year at base, as a ranked chart with
+    the owner of each (Exhibit 6.42) and the action table (Exhibit 6.43).
+- Overview Exhibit 1.35 redrawn in the same clearer style (name, owner, value, range); the Overview quick-hits section
+  and the one-page summary link to Savings at a glance.
+- Capex check added to Overhead & cash, Cash runway (paragraph id cc-capex, Exhibit 7.22): $1M of capex fits
+  management's cash forecast only if the quick hits start now and the spend waits until after the July insurance
+  payment; not at today's run-rate. Pointers in Stores, Capital request, and in the one-page summary (Cash).
+- QA (Chrome 1440 / 1024 / 390, cream and ink): no console errors other than the blocked Google Fonts request, no
+  horizontal overflow, every chart draws, 109 in-packet links land.
 
 ## V3.0 to V3.1 (20 Nov 2026)
 
