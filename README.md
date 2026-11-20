@@ -1,6 +1,7 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V2.1)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V3.0)
 
-DRAFT - PENDING FULL DATA ACCESS. Prepared for Comvest.
+DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed);
+the open questions are listed in Way forward. Prepared for Comvest.
 
 A static site. One page, no build step.
 
@@ -29,23 +30,79 @@ search results; they do not restrict access.
 
 ## What is where
 
-Tab 01, Overview, is the whole packet in brief: a board of six findings that each open
-their detail, then one short section per part of the packet, the asks, and supporting
-evidence.
+Tab 01, Overview, is the whole draft in brief: a board of six findings that each open
+their detail, a one-page summary for Comvest, then one short section per part of the
+draft, the questions for Ojos, and supporting evidence.
 Tabs 02 to 08 hold the commercial and operating plan:
-02 Diagnosis; 03 Market (with outside signals and a simulator); 04 Stores (with the store
-plan and its simulator); 05 Revenue (the planning case, the whole gap to last year,
-management's sales ladder, then where the gap sits by day, by drink and by event; three
-simulators); 06 Path to $13M (the cost review: seven levers, two simulators);
-07 Overhead & cash (overhead, the sponsor fee, the 2027 cash forecast, a runway
-simulator); 08 Way forward (the workstreams, the weekly read and scorecard, the first
-100 days, the data request, the asks and the open questions).
+02 Diagnosis (with cost of goods and the recent weeks); 03 Market (with outside signals
+and a simulator); 04 Stores (with crew hours, the store plan and its simulator);
+05 Revenue (the sales levers, the whole gap, management's sales ladder, then days,
+drinks, fight nights and discounts; three simulators); 06 Path to $13M (the run-rate, the
+levers after overlaps, timing and risk; two simulators); 07 Overhead & cash (overhead,
+the sponsor fee, the 2027 cash forecast re-based to the run-rate, a runway simulator);
+08 Way forward (the first pass, the workstreams, the weekly scorecard, the next 100 days,
+data in hand, the questions by person and the open questions).
 Debt and financing considerations are in one section of tab 09, Appendix
 (section C, "Financing considerations", which also holds a leverage simulator).
 Tab 10 lists assumptions and links to every public source used.
 Tab 11 is the FAQ, and tab 12, About CreditSwan, closes the packet.
 
 ## Changes since V1.2 (this file is not deployed)
+
+V3.0 (20 Nov 2026)
+- Built on V2.1 and restated on Ojos's own system data: Mirus net sales to 15 Nov 2026,
+  the R365 ledger and punch data to FY2026 period 11 (booked, not closed) and Toast's item
+  lists, read after the access call of 17 Nov 2026. The draft label says so, and the
+  wording "pending full data access" is gone. Each figure names its basis (Mirus net,
+  R365 actual, lender's model); timing and one-off costs are marked as CreditSwan
+  assumptions.
+- The path starts from the run-rate on system data, about -$1.2M (periods 8 to 10 of
+  2026) to +$1.6M (periods 9 to 11) of adjusted EBITDA a year, not from management's
+  2027 plan ($6.5M). Levers after overlaps: $3.58M / $7.81M / $14.06M a year (low / base /
+  high). Run-rate with every base lever in: about $6.6M to $9.4M; about $4.2M to $7.1M
+  inside FY2027. Bank cash at the run-rate is below zero by the middle of 2027.
+- Simulators 3.A, 5.A, 5.B, 6.A, 6.B and 7.A start from the run-rate, with management's
+  plan as a comparison setting; 4.A runs on the four store-plan groups (15 protect, 16
+  fix, 2 renegotiate, 2 review for exit); 5.C uses weeks 1 to 19 only; 9.A is unchanged.
+- Retired: the Monday-to-Saturday gap, the Houston standard as a scheduling saving, the
+  seven-lever cost path, the revenue planning case on top of it, and reported speech
+  about Comvest. Way forward sub-tabs renamed: Next 100 days, Data in hand, Questions by
+  person (section ids unchanged). New sections: Overview One-page summary (ov-onepage),
+  Diagnosis Cost of goods (dx-cogs), Stores Crew hours (st-hours).
+- Twenty-three new exhibits; none removed or renumbered (282 exhibits and simulators;
+  every exhibit reference and in-packet link resolves):
+
+    1.32       the path at a glance, low, base and high (one-page summary)
+    1.33       every figure for EBITDA in use, with the run-rate (copy of 6.03)
+    1.34       the bridge from the trailing year to the run-rate (copy of 6.33)
+    2.29-2.31  cost of goods: the rise by cause, the liquor cost rate, rates by category
+    4.30-4.32  crew hours by region; late-night hours by store; the thirteen loss stores
+    4.34-4.35  late-night sales against crew hours; excess late-night hours by store
+    5.31       the Saturday lift by UFC card, pay-per-view against 2026
+    6.33-6.35  the bridge to the run-rate, its table, the booking questions
+    6.36       the labor lever by part
+    6.37-6.38  the base case by what it depends on
+    6.39       management's 2027 plan against the run-rate
+    6.40       savings not counted until Ojos answers
+    7.21       the unpaid sponsor fee balance
+    9.20-9.21  the company's add-back practice against the lender's definition
+
+- Restated with a new title (95 exhibits; many others keep their title with restated
+  figures or basis):
+
+    Overview         1.03, 1.05, 1.07, 1.08, 1.09, 1.12, 1.13, 1.16, 1.17, 1.22, 1.24, 1.25, 1.27, 1.29, 1.30, 1.31
+    Diagnosis        2.01, 2.02, 2.03, 2.04, 2.05, 2.06, 2.11, 2.15, 2.16, 2.18, 2.19, 2.23, 2.24, 2.26, 2.28
+    Market           3.A
+    Stores           4.03, 4.15, 4.19, 4.21, 4.22, 4.25, 4.26
+    Revenue          5.01, 5.02, 5.03, 5.05, 5.07, 5.09, 5.10, 5.12, 5.22, 5.23, 5.24, 5.26, 5.27, 5.A
+    Path to $13M     6.01, 6.02, 6.03, 6.07, 6.08, 6.09, 6.10, 6.11, 6.17, 6.18, 6.19, 6.23, 6.24, 6.28, 6.31, 6.A, 6.B
+    Overhead & cash  7.07, 7.08, 7.10, 7.15, 7.18, 7.20, 7.A
+    Way forward      8.01, 8.05, 8.06, 8.08, 8.09, 8.10, 8.11, 8.13, 8.14, 8.15, 8.16, 8.17, 8.18, 8.21, 8.24, 8.32
+    Appendix         9.03, 9.07
+
+- QA (Chrome, 1440 / 1024 / 390): no console errors other than the blocked Google Fonts
+  request; no horizontal overflow; csMotion.audit() zero static exhibits and zero wipes;
+  all 29 assumptions blocks placed; every in-packet link lands.
 
 V2.1 (16 Nov 2026)
 - Built on V2.0. Seven tables gain a chart directly above them, drawn from the figures
