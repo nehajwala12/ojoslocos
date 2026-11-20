@@ -1,7 +1,19 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, V3.0)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, V3.1)
 
 DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed);
 the open questions are listed in Way forward. Prepared for Comvest.
+
+## V3.0 to V3.1 (20 Nov 2026)
+
+- New Overview section "Quick hits, Q4" (id ov-quick, after the one-page summary): ten actions management can start in
+  periods 12 and 13 of FY2026, worth about $3.75M a year at full rate in the base case ($2.42M to $5.92M). They are the
+  quickest part of the $7.8M of levers in the path, not an addition to it. Exhibit 1.35 (chart) and Exhibit 1.36 (table:
+  worth a year, what to do in Q4, owner, link to the detail). The one-page summary carries a pointer paragraph.
+- Contents menu text about 1px smaller (parts 12.5px, sections 11.5px; phone drawer 13px and 12px).
+- Chart labels shortened so they fit on a phone and at 1440 (Exhibits 6.03 and 1.33, 6.33 and 1.34, 6.17, 7.21);
+  "period 11 not closed" moved into the subtitle of 6.03 and 1.33. No figures changed.
+- QA (Chrome 1440 / 1024 / 390): no console errors other than the blocked Google Fonts request, no horizontal overflow,
+  every chart draws, 107 in-packet links land.
 
 A static site. One page, no build step.
 
