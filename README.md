@@ -2,12 +2,17 @@
 
 DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed). Prepared 23 Nov 2026. This is the edition for Ojos Locos's management. It matches the Comvest 4.4 packet in layout and navigation, and the material kept for Comvest is left out.
 
-One file, `index.html`. Open it in a browser, or deploy the folder as a static site to a separate, password-protected Vercel project. `vercel.json` and `robots.txt` set clean URLs and block indexing, and `.vercelignore` keeps this README off the site.
+One file, `index.html`. Open it in a browser, or deploy the folder as a static site to a separate Vercel project; it carries its own password page (below). `vercel.json` and `robots.txt` set clean URLs and block indexing, and `.vercelignore` keeps this README off the site.
 What is new in 4.4 (23 Nov 2026)
 - New section 03 Market, Customer survey (Exhibits 3.29 to 3.31, assumption A-59): Beckett Square's study of 1 Sep 2026, with cross-references in security, DJs and crew hours.
 - Crew hours: California scheduling rules and the 2022/23 payroll-claims settlement in the 2027 budget. Insurance: the $0.53M premium audit from the GSP purchase.
 - One-page summary (Overview, B) rebuilt as four tiles, three charts (Exhibits 1.01 to 1.03: run-rate to base case, the base case by quarter of FY2027, what the base case depends on) and eight short linked lines; the other Overview exhibits move up three numbers.
 - Lever sizes and totals unchanged from 4.3.
+
+Password (management edition)
+- Before anything loads, the site shows a CreditSwan page with a single password box (no username). Password: **OjosLocos2026**. A correct password sets a cookie for 7 days, so the reader is not asked again on that browser. It is enforced on Vercel's servers by `middleware.js` (Vercel Routing Middleware), so the packet is never sent without it. `package.json` only marks the folder as an ES module; there is nothing to install.
+- Deploy the whole folder (Vercel CLI `vercel --prod` from inside it, or a Git import). Framework preset: Other. After deploying, open the link in a private window: the password page should appear.
+- To change the password, edit `PASSWORD` in `middleware.js` and redeploy.
 
 How to find things
 - **Start here.** Six key sections are pinned at the top of the menu on every tab, and repeated as cards at the top of the Overview:
