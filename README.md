@@ -6,6 +6,7 @@ One file, `index.html`. Open it in a browser, or deploy the folder as a static s
 What is new in 4.4 (23 Nov 2026)
 - New section 03 Market, Customer survey (Exhibits 3.29 to 3.31, assumption A-59): Beckett Square's study of 1 Sep 2026, with cross-references in security, DJs and crew hours.
 - Crew hours: California scheduling rules and the 2022/23 payroll-claims settlement in the 2027 budget. Insurance: the $0.53M premium audit from the GSP purchase.
+- One-page summary (Overview, B) rebuilt as four tiles, three charts (Exhibits 1.01 to 1.03: run-rate to base case, the base case by quarter of FY2027, what the base case depends on) and eight short linked lines; the other Overview exhibits move up three numbers.
 - Lever sizes and totals unchanged from 4.3.
 
 How to find things
