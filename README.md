@@ -1,8 +1,12 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, management edition 4.3)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, management edition 4.4)
 
-DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed). Prepared 23 Nov 2026. This is the edition for Ojos Locos's management. It matches the Comvest 4.3 packet in layout and navigation, and the material kept for Comvest is left out.
+DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed). Prepared 23 Nov 2026. This is the edition for Ojos Locos's management. It matches the Comvest 4.4 packet in layout and navigation, and the material kept for Comvest is left out.
 
 One file, `index.html`. Open it in a browser, or deploy the folder as a static site to a separate, password-protected Vercel project. `vercel.json` and `robots.txt` set clean URLs and block indexing, and `.vercelignore` keeps this README off the site.
+What is new in 4.4 (23 Nov 2026)
+- New section 03 Market, Customer survey (Exhibits 3.29 to 3.31, assumption A-59): Beckett Square's study of 1 Sep 2026, with cross-references in security, DJs and crew hours.
+- Crew hours: California scheduling rules and the 2022/23 payroll-claims settlement in the 2027 budget. Insurance: the $0.53M premium audit from the GSP purchase.
+- Lever sizes and totals unchanged from 4.3.
 
 How to find things
 - **Start here.** Six key sections are pinned at the top of the menu on every tab, and repeated as cards at the top of the Overview:
