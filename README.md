@@ -1,9 +1,15 @@
-# Ojos Locos: growing sales and EBITDA (CreditSwan, management edition 4.4)
+# Ojos Locos: growing sales and EBITDA (CreditSwan, management edition 4.5)
 
-DRAFT, built on Ojos's system data to FY2026 period 10 (period 11 booked, not closed). Prepared 23 Nov 2026. This is the edition for Ojos Locos's management. It matches the Comvest 4.4 packet in layout and navigation, and the material kept for Comvest is left out.
+DRAFT, built on Ojos's system data to FY2026 period 11 (closed monthly pack) and the weekly sales reports to 22 Nov 2026. Prepared 24 Nov 2026. This is the edition for Ojos Locos's management. It matches the Comvest 4.5 packet in layout and navigation, and the material kept for Comvest is left out.
 
 One file, `index.html`. Open it in a browser, or deploy the folder as a static site to a separate Vercel project; it carries its own password page (below). `vercel.json` and `robots.txt` set clean URLs and block indexing, and `.vercelignore` keeps this README off the site.
-What is new in 4.4 (23 Nov 2026)
+What is new in 4.5 (24 Nov 2026)
+- **Period 11 closed.** The FY2026 P11 monthly pack and the weekly reports to 15 and 22 Nov are in. P11: sales $11.72M (-7.0%), store profit $1.41M (12.0% against 13.4% a year earlier and the 10.4% forecast), adjusted EBITDA $0.52M (against $0.88M); same-store sales -6.6%, transactions -4.3%.
+- **Run-rate restated** with store profit for periods 8 to 11 from the closed packs: P8-P10 +$0.85M, P9-P11 +$4.13M a year (was -$1.25M and +$1.62M): the packs carry no extra insurance week and P11 closed above the ledger as pulled. Base case with every saving $8.7M to $11.9M; FY2027 on the timing assumed $6.3M to $9.6M. Savings unchanged. Simulators restated.
+- **New sections:** Overview, Period 11 and latest weeks (Start-here card 2; Exhibit 1.04) and 02 Diagnosis, Period 11 (Exhibits 2.36 to 2.39). The first three weeks of period 12 ran 9.8% below last year.
+- **Restated:** bridge to the run-rate (6.33, 6.34), booking questions (6.35), reported history to P11 (2.32 to 2.35 and the Overview copy). **04 Stores:** Exhibit 4.36, the pack's list of stores with negative store profit for the year. Assumption A-60 added. Comvest-only material (covenant, cash, $13M target, sponsor fee) stays out.
+
+What was new in 4.4 (23 Nov 2026)
 - New section 03 Market, Customer survey (Exhibits 3.29 to 3.31, assumption A-59): Beckett Square's study of 1 Sep 2026, with cross-references in security, DJs and crew hours.
 - Crew hours: California scheduling rules and the 2022/23 payroll-claims settlement in the 2027 budget. Insurance: the $0.53M premium audit from the GSP purchase.
 - One-page summary (Overview, B) rebuilt as four tiles, three charts (Exhibits 1.01 to 1.03: run-rate to base case, the base case by quarter of FY2027, what the base case depends on) and eight short linked lines; the other Overview exhibits move up three numbers.
@@ -15,20 +21,21 @@ Password (management edition)
 - To change the password, edit `PASSWORD` in `middleware.js` and redeploy.
 
 How to find things
-- **Start here.** Six key sections are pinned at the top of the menu on every tab, and repeated as cards at the top of the Overview:
+- **Start here.** Seven key sections are pinned at the top of the menu on every tab, and repeated as cards at the top of the Overview:
   1. One-page summary
-  2. Quick hits, Q4
-  3. Savings at a glance
-  4. Overhead
-  5. Next 100 days
-  6. Decisions
+  2. Period 11 and latest weeks (new in 4.5)
+  3. Quick hits, Q4
+  4. Savings at a glance
+  5. Overhead
+  6. Next 100 days
+  7. Decisions
 
   Each card opens its summary on the Overview, and the line under it opens the full detail.
 - **The Overview reads in two parts.**
-  - Part 1 is the plan and what to do now: the six sections above.
+  - Part 1 is the plan and what to do now: the seven sections above.
   - Part 2 is how the business got here: Position, Diagnosis, Market, Stores and Revenue.
 
-  Every Overview section links to its detail, and its exhibits are numbered 1.01 to 1.14 in page order.
+  Every Overview section links to its detail, and its exhibits are numbered 1.01 to 1.18 in page order.
 - **New on the Overview:** a one-page summary, and Quick hits, Q4 as its own section, with the table of the ten actions and their owners (Exhibit 1.02, from Exhibit 6.43).
 - **Key sections.** Each detail tab, 02 to 09, opens with a line linking to its most-used sections.
 
